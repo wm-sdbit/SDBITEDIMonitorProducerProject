@@ -7,6 +7,9 @@ packages:
   gitUrl: https://github.com/wm-sdbit
   gitUsername: wm-sdbit
   gitBranch: main
+- name: WmAmazonS3Provider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
 - serviceName: project.sdbitedimonitorproducer.integrations:OutMessagePublisher
   packages:

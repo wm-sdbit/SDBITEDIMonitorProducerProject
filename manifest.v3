@@ -9,18 +9,20 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmAmazonS3Provider">12.0.0.0.16</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">6</value>
+  <value name="build">7</value>
   <null name="description"/>
   <value name="created_date">28-09-2026 13:18:31 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-09-28T13:22:21.170984135Z</value>
+  <value name="lastUpdated">2026-09-28T13:31:00.955033762Z</value>
   <value name="wmProjectId">flb321494d45d44da9b76da5151494f3ae</value>
   <value name="creator">Simone Pasqualetti</value>
 </Values>
