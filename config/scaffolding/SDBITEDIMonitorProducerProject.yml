@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/wm-sdbit
   gitUsername: wm-sdbit
   gitBranch: main
+services:
+- serviceName: project.sdbitedimonitorproducer.integrations:OutMessagePublisher
+  packages:
+  - name: SDBITEDIMonitorProducerProject
+    version: "1.0"
