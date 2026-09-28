@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SDBITEDIMonitorProducerProject
+  gitServerName: sdbit_github
+  gitUrl: https://github.com/wm-sdbit
+  gitUsername: wm-sdbit
+  gitBranch: main
